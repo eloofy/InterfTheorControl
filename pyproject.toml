@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "interftheorcontrol"
+version = "0.1.0"
+description = ""
+authors = ["anatoly <t.vlasov23@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyqt5 = "5.14"
+matplotlib = "^3.8.2"
+scipy = "^1.11.4"
+control = "^0.9.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
